@@ -191,7 +191,7 @@ mod tests {
     fn test_category_urls() {
         let reader = RssReader::new().unwrap();
         assert!(reader.category_urls.contains_key(&1));
-        assert!(reader.category_urls.contains_key(&9));
+        assert!(reader.category_urls.contains_key(&3));
         assert!(!reader.category_urls.contains_key(&10));
     }
 }
